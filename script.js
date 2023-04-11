@@ -29,6 +29,7 @@ $.getJSON('./profiles.json', function(profiles) {
             var next_profile = profiles.shift();
             if (next_profile != undefined) {
                 showProfile(next_profile);
+                $( "#phone-screen" ).scrollTop(0);
             } else {
                 $(".profile").html(`
                 <div id="sorry">Looks like you're all out of swipes :(<br /><br />Maybe look at the matches you have below or reload to see the profiles again!</div>
