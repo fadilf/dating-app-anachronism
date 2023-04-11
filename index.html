@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hinge App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="phone-outline" data-tab="profile">
+            <div id="status-bar"><!--
+                --><span class="left status"><span class="time"></span></span><!--
+                --><span id="cutout"><!--
+                    --><span id="cutout-left"></span><!--
+                    --><span id="cutout-middle"></span><!--
+                    --><span id="cutout-right"></span><!--
+                --></span><!--
+                --><span class="right status"></span><!--
+            --></div><!--
+            --><div id="phone-screen">
+                <div class="tab profile visible">
+                </div>
+                <div class="tab chat" data-mode="chat-list">
+                    <div id="chat-headline"><!--
+                        --><button id="chat-back"></button><!--
+                        --><span id="chat-headline-text">Matches</span><!--
+                    --></div>
+                    <ul class="chat-page" id="chat-list"></ul>
+                    <ul class="chat-page" id="chat-individual"></ul>
+                </div>
+            </div>
+            <div id="appbar">
+                <button data-tab="profile" class="hinge visible" disabled></button>
+                <button data-tab="chat" class="chat"></button>
+            </div>
+            <div id="decide">
+                <button data-swipe="dislike" class="dislike"></button>
+                <button data-swipe="like" class="like"></button>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

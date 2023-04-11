@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Sappho",
+        "picture": "./img/profiles/sappho.jpg",
+        "messages": [
+            {
+                "fromYou": true,
+                "content": "Hey, how's it hanging!"
+            },
+            {
+                "fromYou": false,
+                "content": "can't believe she's into you. smh"
+            }
+        ]
+    }
+]

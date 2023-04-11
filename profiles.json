@@ -1,0 +1,78 @@
+[
+    {
+        "name": "John",
+        "picture": "./img/profiles/donne.png",
+        "biodata": {
+            "age": 20,
+            "height": "5' 4\"",
+            "location": "College",
+            "drinking": "Yes",
+            "smoking": "Sometimes",
+            "weed": "Sometimes",
+            "drugs": "No",
+            "religion": "Christian",
+            "home": "Montgomery TX",
+            "politics": "Conservative",
+            "looking": "Long-term relationship, open to short",
+            "intro": [
+                "age",
+                "height",
+                "location",
+                "drinking",
+                "smoking",
+                "weed",
+                "drugs"
+            ],
+            "other": [
+                "religion",
+                "home",
+                "politics",
+                "looking"
+            ]
+        },
+        "prompts": [
+            {
+                "prompt": "I'm weirdly attracted to",
+                "response": "People who aren't on social media."
+            }
+        ]
+    },
+    {
+        "name": "Sappho",
+        "picture": "./img/profiles/sappho.jpg",
+        "biodata": {
+            "age": 20,
+            "height": "5' 8\"",
+            "location": "Lesbos",
+            "drinking": "Hell yeah",
+            "smoking": "Sometimes",
+            "weed": "Sometimes",
+            "drugs": "No",
+            "religion": "Zeus",
+            "home": "Montgomery TX",
+            "politics": "No affiliation",
+            "looking": "Long-term relationship, open to short",
+            "intro": [
+                "age",
+                "height",
+                "location",
+                "drinking",
+                "smoking",
+                "weed",
+                "drugs"
+            ],
+            "other": [
+                "religion",
+                "home",
+                "politics",
+                "looking"
+            ]
+        },
+        "prompts": [
+            {
+                "prompt": "I'm weirdly attracted to",
+                "response": "People who aren't on social media."
+            }
+        ]
+    }
+]
