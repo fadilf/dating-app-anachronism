@@ -561,6 +561,7 @@ body {
 .chat[data-mode="chat-individual"] {
     background: #fefefe;
     height: 36.1em;
+    overflow-y: scroll;
 }
 
 .chat-message-pic {
