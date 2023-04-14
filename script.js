@@ -51,11 +51,11 @@ $.getJSON("./messages.json", function(messageData){
         var participants = curChat.participants;
         var item = `<li data-chat="${idx}">` +
             `<div class="chat-img-group">` +
-                `<div class="chat-img-left" style="background-image:url('${participants[0].picture}')"></div>` +
-                `<div class="chat-img-right" style="background-image:url('${participants[1].picture}')"></div>` +
+                `<div class="chat-img-left" style="background-image:url('${participants[1].picture}')"></div>` +
+                `<div class="chat-img-right" style="background-image:url('${participants[0].picture}')"></div>` +
             `</div>` + 
             `<div class="chat-text">` +
-                `<div class="chat-name">${curChat.participants[0].name + " - " + curChat.participants[1].name}</div>` +
+                `<div class="chat-name">${curChat.participants[1].name + " - " + curChat.participants[0].name}</div>` +
                 `<div class="chat-preview">${last_msg}</div>` +
             `</div>` +
         `</li>`;
