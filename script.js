@@ -45,13 +45,17 @@ $.getJSON('./profiles.json', function(profiles) {
     });
 });
 
-$.getJSON("./messages.json", function(messages){
-    for (const [idx, message] of messages.entries()) {
-        var last_msg = message.messages[message.messages.length - 1].content;
-        var item = `<li data-chat="${idx}">`+
-            `<div class="chat-img" style="background-image:url('${message.picture}')"></div>` +
+$.getJSON("./messages.json", function(messageData){
+    for (const [idx, curChat] of messageData.entries()) {
+        var last_msg = curChat.messages[curChat.messages.length - 1].content;
+        var participants = curChat.participants;
+        var item = `<li data-chat="${idx}">` +
+            `<div class="chat-img-group">` +
+                `<div class="chat-img-left" style="background-image:url('${participants[0].picture}')"></div>` +
+                `<div class="chat-img-right" style="background-image:url('${participants[1].picture}')"></div>` +
+            `</div>` + 
             `<div class="chat-text">` +
-                `<div class="chat-name">${message.name}</div>` +
+                `<div class="chat-name">${curChat.participants[0].name + " - " + curChat.participants[1].name}</div>` +
                 `<div class="chat-preview">${last_msg}</div>` +
             `</div>` +
         `</li>`;
@@ -59,25 +63,28 @@ $.getJSON("./messages.json", function(messages){
     }
     $("#chat-list li").click(function(){
         var chatID = $(this).attr("data-chat");
-        var curChat = messages[chatID];
+        var curChat = messageData[chatID];
+        var participants = curChat.participants;
         $(".chat").attr("data-mode", "chat-individual");
         $("#chat-headline-text").html(curChat.name);
         var messageHTML = ``;
         for (const message of curChat.messages) {
-            if (message.fromYou) {
+            var picture = participants[message.from].picture;
+            if (message.from == 0) {
                 messageHTML += `
-                <li class="fromYou">
+                <li class="from0">
                     <div class="chat-message-content">
-                        ${message.content}
+                        <span class="chat-message-content-sub">${message.content}</span>
                     </div>
+                    <div class="chat-message-pic" style="background-image:url(${picture})"></div>
                 </li>
                 `
             } else {
                 messageHTML += `
-                <li class="fromThem">
-                    <div class="chat-message-pic" style="background-image:url(${curChat.picture})"></div>
+                <li class="from1">
+                    <div class="chat-message-pic" style="background-image:url(${picture})"></div>
                     <div class="chat-message-content">
-                        ${message.content}
+                        <span class="chat-message-content-sub">${message.content}</span>
                     </div>
                 </li>
                 `
@@ -102,9 +109,11 @@ function showProfile(profile) {
     }
     output += `</div>`;
     for (const prompt_item of profile.prompts) {
+        var pr_size = (prompt_item.response.length > 120) ? "big-text" : "";
+        console.log(pr_size);
         output += `<div class="prompt card">` +
          `<div class="prompt-title">${prompt_item.prompt}</div>` +
-         `<div class="prompt-text">${prompt_item.response}</div>` +
+         `<div class="prompt-text ${pr_size}">${prompt_item.response}</div>` +
          `</div>`
     }
     $(".profile").html(output);
@@ -122,5 +131,5 @@ $("#appbar button").click(function(){
 
 $("#chat-back").click(function(){
     $(".chat").attr("data-mode", "chat-list");
-    $("#chat-headline-text").html("Matches");
+    $("#chat-headline-text").html("Conversations");
 });

@@ -1,15 +1,453 @@
 [
     {
-        "name": "Sappho",
-        "picture": "./img/profiles/sappho.jpg",
-        "messages": [
+        "participants": [
             {
-                "fromYou": true,
-                "content": "Hey, how's it hanging!"
+                "name":"Sappho",
+                "picture": "./img/profiles/sappho.jpg"
             },
             {
-                "fromYou": false,
-                "content": "can't believe she's into you. smh"
+                "name":"Lucretius",
+                "picture": "./img/profiles/lucretius.jpg"
+            }
+        ],
+        "messages": [
+            {
+                "from": 0,
+                "content": "There’s no way you haven’t been in love. If true, a shame. You haven’t lived."
+            },
+            {
+                "from": 0,
+                "content": "Also just wanted to let you know that my phone sometimes cuts out on my texts. some weird glitch. idk why they didn’t fix it…. 🙄 as if this phone is from the classical times or something  ☠️☠️☠️"
+            },
+            {
+                "from": 1,
+                "content": "haha maybe i should’ve said two lies and a truth"
+            },
+            {
+                "from": 1,
+                "content": "ofc i’ve never been in love- it’s nothing but hormones messing with your brain"
+            },
+            {
+                "from": 0,
+                "content": "ur cappin’. love is wayyy more powerful than that. it’s the main motivation for humankind…. like forget war and hate it’s LUVV that moves the soul"
+            },
+            {
+                "from": 1,
+                "content": "Honestly, all of that stuff’s bull****, war AND love both disrupt the peace that we should all want in our lives"
+            },
+            {
+                "from": 0,
+                "content": "Fine 😒I think we view life through different lenses. Love, life, and war [                    ] philosophy? Anyways, we don’t seem compatible, but I’m down for a date or something. "
+            },
+            {
+                "from": 1,
+                "content": "We’re more compatible than you might think. The actual lie in my answer was that I think sex should be reserved for marriage. We can hook up anytime, baby, the less I know you the better ;)"
+            },
+            {
+                "from": 0,
+                "content": "We stan! Sex doesn’t need marriage to be enjoyable. I had a great time recently with this rose-cheeked girl 😉. Down for some Netflix and chill. "
+            },
+            {
+                "from": 1,
+                "content": "See that’s what I’m saying!! ppl always hype up sex with love but that’s when sh** gets messy, you know"
+            },
+            {
+                "from": 1,
+                "content": "what are u watchin on netflix, then?"
+            },
+            {
+                "from": 0,
+                "content": "mmmm I still like sex with love tho not necessarily marriage, but love[               ]. Venus be out here helping us out ya kno. "
+            },
+            {
+                "from": 0,
+                "content": "good question. rewatching Buffy the Vampire Slayer right now. the protagonist is [                  ]    Wby? "
+            },
+            {
+                "from": 1,
+                "content": "idk, dude, I just can’t fall for another girl after my ex. I know I said i’ve never been in love but that’s just a wall I put up to keep ppl out"
+            },
+            {
+                "from": 1,
+                "content": "I’m scared of getting my heart broken again 😢"
+            },
+            {
+                "from": 0,
+                "content": "fair [                                                ]"
+            },
+            {
+                "from": 1,
+                "content": "ohhh so you’re into that fantasy stuff? That’s cool…I’ve been catching up on Bojack Horseman. I like how gritty and honest it is."
+            },
+            {
+                "from": 1,
+                "content": "I’m just tired of watching shows with these perfect do-gooder characters- especially the women. Real women are a lot nastier (and smellier) than they portray them in movies"
+            },
+            {
+                "from": 0,
+                "content": "hmmm the women I know smell of roses and lily of the valley. Sure we may not be perfect, but you just haven’t been in love the right way to experience this. Idk bro I think your tripping"
+            },
+            {
+                "from": 1,
+                "content": "ig we gotta disagree again haha"
+            },
+            {
+                "from": 1,
+                "content": "and nah I swear I’m not tripping, although I definitely was last night lmao"
+            },
+            {
+                "from": 0,
+                "content": "lol. me too "
+            },
+            {
+                "from": 0,
+                "content": "so r we gonna meet up or what? or do you wanna be my wingman and help me out with this girl. She’s [                                           ] tender moon [            ]. if u wanna seduce her mans then ill take her (if you swing that way) "
+            },
+            {
+                "from": 1,
+                "content": "woahh ur kinda freaky, girl"
+            },
+            {
+                "from": 1,
+                "content": "That sounds like too much excitement for me tho. I like to keep things kinda chill and balanced and ur plan is HELLA crazy "
+            },
+            {
+                "from": 0,
+                "content": "fine you like too much moderation, you gotta let yourself be washed away sometimes. hit me up if you change your mind 👍[                                                              ]"
+            }
+        ]
+    },
+    {
+        "participants": [
+            {
+                "name":"John Donne",
+                "picture": "./img/profiles/donne.png"
+            },
+            {
+                "name":"Lucretius",
+                "picture": "./img/profiles/lucretius.jpg"
+            }
+        ],
+        "messages": [
+            {
+                "from": 0,
+                "content": "Your profile says you're looking for something casual"
+            },
+            {
+                "from": 0,
+                "content": "Don't you want to fall in love? I feel like we should all be looking for our soulmates."
+            },
+            {
+                "from": 1,
+                "content": "If you’re looking for your soulmate, then why are you on this app?? "
+            },
+            {
+                "from": 1,
+                "content": "Besides, I can’t afford to give my heart away any more, all the love in the world could never satisfy me anyway"
+            },
+            {
+                "from": 0,
+                "content": "Personally I think only all the love in the world would satisfy me. People say that \"cheating\" is a problem but the real problem is the stigma against natural compulsions."
+            },
+            {
+                "from": 1,
+                "content": "mmmh interesting. I agree that men have these kinds of compulsions but I also think that we must be hesitant to indulge them all the time"
+            },
+            {
+                "from": 1,
+                "content": "It’s good to seek out pleasure in our lives, but I get the feeling you’re doing more than that, my friend haha"
+            },
+            {
+                "from": 0,
+                "content": "To me, the ultimate pleasure is feeling like I am one with someone. Like our worlds collide and unite."
+            },
+            {
+                "from": 1,
+                "content": "I actually agree with you. If only it were possible, right? That’s why I struggle with relationships, I think, because they "
+            },
+            {
+                "from": 1,
+                "content": "I’m glad I met you on this app btw. I was hesitant about joining but it’s good to have someone to talk to "
+            },
+            {
+                "from": 0,
+                "content": "Thx for the kind words 😊"
+            },
+            {
+                "from": 0,
+                "content": "Wdym if it was possible? Of course it is! Have you never felt like love makes everything else feel trivial?"
+            },
+            {
+                "from": 0,
+                "content": "Like f**k waking up, going to work and adulting in general, this is where it's at."
+            },
+            {
+                "from": 1,
+                "content": "Yeah I think those are the few moments I feel most at peace, just in bed, talking with her, nothing else matters"
+            },
+            {
+                "from": 1,
+                "content": "I mean my general philosophy is to take things slow and enjoy life’s simple pleasures so that definitely fits the vibe. That and smoking haha"
+            },
+            {
+                "from": 1,
+                "content": "Speaking of, I generally like getting high alone but would you wanna join??"
+            },
+            {
+                "from": 0,
+                "content": "Thanks for the offer but I'm afraid I'll have to pass."
+            },
+            {
+                "from": 0,
+                "content": "I agree with you tho, nothing hits like being in bed w your beloved. What sucks is afterwards when you gotta go on with your day. in an ideal world, codependency wouldn't be debilitating lol"
+            },
+            {
+                "from": 0,
+                "content": "What's your fav quote? Mine is from The Great Gatsby"
+            },
+            {
+                "from": 0,
+                "content": "\"He stretched out his arms toward the dark water in a curious way, and, far as I was from him, I could have sworn he was trembling. Involuntarily I glanced seaward – and distinguished nothing except a single green light, minute and far away.\""
+            },
+            {
+                "from": 1,
+                "content": "You’re so random lol, I kinda like it "
+            },
+            {
+                "from": 1,
+                "content": "and NO WAY The Great Gatsby is soooo good, I put a quote from it in my profile!!!! Why do you like that quote, specifically?"
+            },
+            {
+                "from": 0,
+                "content": "I just feel like if you're not careful, you can fall prey to love. Like you're lured in and basically trapped 🎣"
+            },
+            {
+                "from": 1,
+                "content": "Woww, you really like your metaphors, dont you? This is mine:"
+            },
+            {
+                "from": 1,
+                "content": "“I was within and without, simultaneously enchanted and repelled by the inexhaustible variety of life” "
+            },
+            {
+                "from": 1,
+                "content": "I have a symposium coming up so I’m gonna head out, ttyl"
+            },
+            {
+                "from": 0,
+                "content": "It was nice talking to you!"
+            },
+            {
+                "from": 1,
+                "content": "same, let’s hang out in person some time. I won’t bring a joint, promise "
+            }
+        ]
+    },
+    {
+        "participants": [
+            {
+                "name":"Sappho",
+                "picture": "./img/profiles/sappho.jpg"
+            },
+            {
+                "name":"Rochester",
+                "picture": "./img/profiles/wilmot.png"
+            }
+        ],
+        "messages": [
+            {
+                "from": "R",
+                "content": "Sensuous ladies like you? I second that. 😛"
+            },
+            {
+                "from": "S",
+                "content": "thanks. you aren’t one but from your photos your golden curls and [                    ] are pretty attractive 😍"
+            },
+            {
+                "from": "R",
+                "content": "Why thank you for the kind words. Though I do say that pales in comparison to the beauty of your dark tresses and bountiful bosom. How I would love to retire among such treasures! 🤑"
+            },
+            {
+                "from": "S",
+                "content": "You aren’t catfishing though right? 🐱"
+            },
+            {
+                "from": "R",
+                "content": "Of course not! My experiences with war have made me quite a man, past the youthful inexperience found in boys. 😏"
+            },
+            {
+                "from": "S",
+                "content": "just wanted to let you know that my phone sometimes cuts out on my texts. some weird glitch. idk why they didn’t fix it…. 🙄 as if this phone is from the classical times or something  ☠️☠️☠️"
+            },
+            {
+                "from": "R",
+                "content": "No worries. Please don’t stay away for long; my heart could not bear that anguish!"
+            },
+            {
+                "from": "S",
+                "content": "No promises. [      ]"
+            },
+            {
+                "from": "R",
+                "content": "Splendid. As a fellow wine drinker, would you be willing to Netflix and chill with a glass of Bordeaux? "
+            },
+            {
+                "from": "S",
+                "content": "I’m lowkey in my feels right now. 😭My heart is [       ] crushed petals. and thinking about it, it is [                     ] idea to get involved with someone this quick "
+            },
+            {
+                "from": "R",
+                "content": "My muse, the past is no more! Talk not of past sadnesses and enjoy the now with me!"
+            },
+            {
+                "from": "R",
+                "content": "If you need, I can spirit you away like a knight with his princess. "
+            },
+            {
+                "from": "R",
+                "content": "Even the sexiest ladies don’t have quite as many tricks as little old me!"
+            },
+            {
+                "from": "S",
+                "content": "I was trying to say a BAD idea. Speaking of princesses, there is one I would like to spirit away. "
+            },
+            {
+                "from": "R",
+                "content": "I’m hurt, but surely you can give me another chance. Still, another princess? "
+            },
+            {
+                "from": "S",
+                "content": "ugh I just can’t get over her. I saw her on the dance floor. Her glowing skin, sweet voice, and baaaad moves were irresistible. such a turn on I honestly almost had a heart attack, but then I realize she’s dancing with this damn guy [            ]  what lottery did he win to be so lucky [          ] god or goddess did he pray to enjoy her presence like that  🙏🏻"
+            },
+            {
+                "from": "S",
+                "content": "I felt poor [                                  ] him "
+            },
+            {
+                "from": "R",
+                "content": "You sing such praises for what must be a whore! I bet she looked an angel to all at the party, inviting everyone to indulge in her! Even if she can arouse my body, know that my heart will remain steadfast! You would do well to remember this!"
+            },
+            {
+                "from": "R",
+                "content": "And why are you lurking on this app? It sounds like you are another foolish b*tch unaware of the sweets of love!"
+            },
+            {
+                "from": "S",
+                "content": "Imma hold myself back right now, but don’t talk about my crush like that. My blood is boiling. "
+            },
+            {
+                "from": "R",
+                "content": "Why are you so angry over a crush? With such poor taste, she would never give you the time of day! Some “muse” you are, I see nothing but a wretched idiot!"
+            },
+            {
+                "from": "S",
+                "content": "That’s it, canceled. Praying to Venus [                ]  love with frosty loneliness and biting winds. not interested in [                ] "
+            },
+            {
+                "from": "R",
+                "content": "And good riddance to you too! Just know that no man likes a woman more successful than them!        "
+            }
+        ]
+    },
+    {
+        "participants": [
+            {
+                "name":"Donne",
+                "picture": "./img/profiles/donne.png"
+            },
+            {
+                "name":"Rochester",
+                "picture": "./img/profiles/wilmot.png"
+            }
+        ],
+        "messages": [
+            {
+                "from": "W",
+                "content": "May I be your “Gentleman of the Chamber”? I can raise your spirits better than any fine lady 😜"
+            },
+            {
+                "from": "D",
+                "content": "You'd have to put on a white sheet or a wig to raise anything of mine 🥱"
+            },
+            {
+                "from": "W",
+                "content": "Is that all? I’ll show you tricks better than any b*tch 😘"
+            },
+            {
+                "from": "D",
+                "content": "I'll be honest, I'm kinda done being suckered by women and falling hook, line, and sinker."
+            },
+            {
+                "from": "W",
+                "content": "A man of wit and wisdom. What a delight!"
+            },
+            {
+                "from": "W",
+                "content": "Women are destined to betray your expectations. They captivate many a man, and sleep with just as many too!"
+            },
+            {
+                "from": "D",
+                "content": "Not gonna lie, that's fine by me, my last girl got mad at me just because I don't like to be tied down!"
+            },
+            {
+                "from": "W",
+                "content": "That’s crazy. I say that trying out different things is a must-do to prove your love. Trial by fire!"
+            },
+            {
+                "from": "D",
+                "content": "And if I happen to find love in more than one person, what's the big deal? How could more love in the world possibly be a bad thing? Personally, I think I could fall in love with anyone!"
+            },
+            {
+                "from": "W",
+                "content": "Preach! There’s no reason to talk about inconstancy when we can be talking about love! It’s more fun that way, and what’s love worth without any enjoyment?"
+            },
+            {
+                "from": "D",
+                "content": "Besides, I don't want to spend what little time I have on Earth worrying about the temperament of my lovers. I don't need that kind of toxicity in my life."
+            },
+            {
+                "from": "W",
+                "content": "I’m so glad I can talk to you freely about this! Every time I try to bring it up at work, my boss punishes me. He’s never mad for long tho 😊"
+            },
+            {
+                "from": "W",
+                "content": "If I may ask, what do you need in your life? Maybe little old me? 🙄"
+            },
+            {
+                "from": "D",
+                "content": "There's not much mystery in men, women bring out the curiosity (and confuddlement) in me that's worth exploring."
+            },
+            {
+                "from": "W",
+                "content": "My lady and I can assure you that men can be quite mysterious as well. If you want, I can show you and your lady how 🫣"
+            },
+            {
+                "from": "D",
+                "content": "I'm into variety but not of that kind 😳"
+            },
+            {
+                "from": "W",
+                "content": "You won’t know unless you try!"
+            },
+            {
+                "from": "D",
+                "content": "Why try? The only thing you can raise is my hairs in fear!"
+            },
+            {
+                "from": "W",
+                "content": "I called you witty, I must have been mistaken. You’re such a bore that it’s no surprise nothing but wigs and empty sheets can raise your flesh."
+            },
+            {
+                "from": "W",
+                "content": "Not only would you not consider sleeping with me, you would not even join me in some playful teasing."
+            },
+            {
+                "from": "W",
+                "content": "I hope you never find a lover to finally rest your worrisome heart with. Good bye and good riddance!"
+            },
+            {
+                "from": "D",
+                "content": "You said you wouldn't wear a white sheet but you still ended up ghosting me 🤔"
             }
         ]
     }

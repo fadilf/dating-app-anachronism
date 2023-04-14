@@ -1,23 +1,22 @@
 [
     {
-        "name": "John",
+        "name": "John Donne",
         "picture": "./img/profiles/donne.png",
         "biodata": {
-            "age": 20,
-            "height": "5' 4\"",
-            "location": "College",
+            "age": 28,
+            "height": "5' 8\"",
             "drinking": "Yes",
             "smoking": "Sometimes",
             "weed": "Sometimes",
             "drugs": "No",
-            "religion": "Christian",
-            "home": "Montgomery TX",
-            "politics": "Conservative",
-            "looking": "Long-term relationship, open to short",
+            "religion": "Catholic",
+            "home": "London",
+            "politics": "Moderate",
+            "studies": "University of Cambridge",
             "intro": [
                 "age",
                 "height",
-                "location",
+                "home",
                 "drinking",
                 "smoking",
                 "weed",
@@ -27,13 +26,17 @@
                 "religion",
                 "home",
                 "politics",
-                "looking"
+                "studies"
             ]
         },
         "prompts": [
             {
                 "prompt": "I'm weirdly attracted to",
-                "response": "People who aren't on social media."
+                "response": "Anyone and everyone"
+            },
+            {
+                "prompt": "Go-to karaoke song",
+                "response": "Mambo No, 5 or Titi Me Pregunto"
             }
         ]
     },
@@ -41,37 +44,125 @@
         "name": "Sappho",
         "picture": "./img/profiles/sappho.jpg",
         "biodata": {
-            "age": 20,
             "height": "5' 8\"",
             "location": "Lesbos",
-            "drinking": "Hell yeah",
-            "smoking": "Sometimes",
-            "weed": "Sometimes",
-            "drugs": "No",
-            "religion": "Zeus",
-            "home": "Montgomery TX",
-            "politics": "No affiliation",
-            "looking": "Long-term relationship, open to short",
+            "drinking": "Yes",
+            "smoking": "Yes",
+            "weed": "Yes",
+            "home": "Mytilene",
+            "politics": "Liberal",
+            "work": "Lyric poet, Thiasos leader",
             "intro": [
-                "age",
                 "height",
                 "location",
                 "drinking",
                 "smoking",
-                "weed",
-                "drugs"
+                "weed"
             ],
             "other": [
-                "religion",
                 "home",
-                "politics",
-                "looking"
+                "work",
+                "politics"
             ]
         },
         "prompts": [
             {
-                "prompt": "I'm weirdly attracted to",
-                "response": "People who aren't on social media."
+                "prompt": "If loving this is wrong, I don’t want to be right",
+                "response": "sensuous ladies 😋"
+            },
+            {
+                "prompt": "Let’s make sure we’re on the same page about",
+                "response": "what the best goddess is: Venus.\nShe’s pretty much the most powerful goddess because love is really out here doing the most, and she sympathizes with us cuz she’s gone through a lot. I mean she lost Adonis recently. That’s rough"
+            },
+            {
+                "prompt": "I know the best spot in town for",
+                "response": "viewing flowers – Arboretum and drinking wine"
+            },
+            {
+                "prompt": "My nickname is",
+                "response": "the “tenth muse”"
+            }
+        ]
+    },
+    {
+        "name": "John Wilmot, Earl of Rochester",
+        "picture": "./img/profiles/wilmot.png",
+        "biodata": {
+            "age": 24,
+            "height": "5' 10\"",
+            "drinking": "Yes",
+            "weed": "Sure",
+            "drugs": "Sure",
+            "home": "Oxfordshire",
+            "work": "Courtier, Woodstock Park Ranger, Navy",
+            "studies": "Wadham College",
+            "intro": [
+                "age",
+                "height",
+                "drinking",
+                "weed",
+                "drugs"
+            ],
+            "other": [
+                "home",
+                "work",
+                "studies"
+            ]
+        },
+        "prompts": [
+            {
+                "prompt": "I’m looking for…",
+                "response": "A partner to pardon my impotence, endear me every night, and enjoy a cask of wine with. Either be a not too successful actress, or not a woman at all."
+            },
+            {
+                "prompt": "I’m convinced that…",
+                "response": "Life’s not worth living without doing what you want. To do so, money is key. #CarpeDiem #DrinkFreeSpeakFree"
+            },
+            {
+                "prompt": "Don’t hate me if I…",
+                "response": "Offend you. It’s just a little f*ckery, no? #Don’tCancelMe #ForgiveAndMoveOn"
+            }
+        ]
+    },
+    {
+        "name": "Lucretius",
+        "picture": "./img/profiles/lucretius.jpg",
+        "biodata": {
+            "age": 44,
+            "height": "5' 11\"",
+            "drinking": "Yes",
+            "weed": "Yes",
+            "home": "Rome",
+            "work": "Epicurean thinker and poet",
+            "studies": "At the marketplace of ideas",
+            "intro": [
+                "age",
+                "height",
+                "drinking",
+                "weed"
+            ],
+            "other": [
+                "home",
+                "work",
+                "studies"
+            ]
+        },
+        "prompts": [
+            {
+                "prompt": "Two truths and a lie",
+                "response": "I’ve never been in love, I’ve drunken a love potion before, I think sex should be reserved for marriage"
+            },
+            {
+                "prompt": "You should leave a comment if…",
+                "response": "You’re also looking for something casual"
+            },
+            {
+                "prompt": "This year I really want to",
+                "response": "Take life slow. Live peacefully and indulge quietly."
+            },
+            {
+                "prompt": "Favorite quote",
+                "response": "“I was within and without, simultaneously enchanted and repelled by the inexhaustible variety of life.” Gatsby"
             }
         ]
     }

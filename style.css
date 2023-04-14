@@ -163,6 +163,10 @@ body {
     padding: 3em 1em;
 }
 
+.prompt.card .prompt-text.big-text {
+    font-size: 1.4em;
+}
+
 .prompt.card .prompt-title {
     font-size: .8em;
     font-weight: 600;
@@ -173,6 +177,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     padding-top: .1em;
+    overflow-wrap: break-word;
 }
 
 .biodata {
@@ -273,6 +278,14 @@ body {
 
 .biodata .looking::before {
     background-image: url('./img/icons/looking.png');
+}
+
+.biodata .work::before {
+    background-image: url('./img/icons/work.png');
+}
+
+.biodata .studies::before {
+    background-image: url('./img/icons/studies.png');
 }
 
 .biodata .first-line-inner div:last-of-type {
@@ -425,12 +438,44 @@ body {
     cursor: pointer;
 }
 
-#chat-list .chat-img {
+/* #chat-list .chat-img {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
     display: inline-block;
     margin-right: 1rem;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+} */
+
+#chat-list .chat-img-group {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+    /* background-size: cover;
+    background-position: center; */
+}
+
+#chat-list .chat-img-left {
+    height: 4rem;
+    width: 2rem;
+    border-radius: 2rem 0 0 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+
+#chat-list .chat-img-right {
+    height: 4rem;
+    width: 2rem;
+    border-radius: 0 2rem 2rem 0;
+    display: inline-block;
     vertical-align: middle;
     background-size: cover;
     background-position: center;
@@ -486,24 +531,29 @@ body {
 #chat-individual li .chat-message-content {
     padding: .5em .4em;
     border-radius: 5px;
-    max-width: 15em;
+    max-width: 14.5em;
     display: inline-block;
     font-size: .85em;
+    text-align: left;
 }
 
-#chat-individual li.fromThem .chat-message-content {
+#chat-individual li .chat-message-content-sub {
+    white-space: pre-wrap;
+}
+
+#chat-individual li.from1 .chat-message-content {
     background: #ececec;
     border-bottom-left-radius: 0;
     color: #353535;
 }
 
-#chat-individual li.fromYou .chat-message-content {
+#chat-individual li.from0 .chat-message-content {
     background: #6942ed;
     color: #f4f3f8;
     border-bottom-right-radius: 0;
 }
 
-#chat-individual li.fromYou {
+#chat-individual li.from0 {
     text-align: right;
 }
 
