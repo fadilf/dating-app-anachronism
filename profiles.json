@@ -99,6 +99,16 @@
         },
         "profileItems": [
             {
+                "type": "image",
+                "src": "./img/captioned/image10.png",
+                "caption": "”Throwback to my rebel days”"
+            },
+            {
+                "type": "image",
+                "src": "./img/captioned/image11.png",
+                "caption": "”The pen may be mightier than the sword but my beard is the sharpest of them all”"
+            },
+            {
                 "type": "prompt",
                 "prompt": "I'm weirdly attracted to",
                 "response": "Anyone and everyone"
