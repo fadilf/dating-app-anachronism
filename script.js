@@ -108,13 +108,20 @@ function showProfile(profile) {
         output += `<div class="${item}">${profile.biodata[item]}</div>`;
     }
     output += `</div>`;
-    for (const prompt_item of profile.prompts) {
-        var pr_size = (prompt_item.response.length > 120) ? "big-text" : "";
-        console.log(pr_size);
-        output += `<div class="prompt card">` +
-         `<div class="prompt-title">${prompt_item.prompt}</div>` +
-         `<div class="prompt-text ${pr_size}">${prompt_item.response}</div>` +
-         `</div>`
+    for (const profileItem of profile.profileItems) {
+        if (profileItem.type == "prompt") {
+            var pr_size = (profileItem.response.length > 120) ? "big-text" : "";
+            console.log(pr_size);
+            output += `<div class="prompt card">` +
+             `<div class="prompt-title">${profileItem.prompt}</div>` +
+             `<div class="prompt-text ${pr_size}">${profileItem.response}</div>` +
+             `</div>`;
+        } else if (profileItem.type == "image") {
+            output += `<div class="captioned-image card">` +
+             `<div class="captioned-image-content" style="background-image:url('${profileItem.src}')"></div>` +
+             `<div class="captioned-image-text">${profileItem.caption}</div>` +
+             `</div>`;
+        }
     }
     $(".profile").html(output);
 }

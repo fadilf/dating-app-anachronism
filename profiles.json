@@ -1,5 +1,73 @@
 [
     {
+        "name": "Sappho",
+        "picture": "./img/profiles/sappho.jpg",
+        "biodata": {
+            "height": "5' 8\"",
+            "location": "Lesbos",
+            "drinking": "Yes",
+            "smoking": "Yes",
+            "weed": "Yes",
+            "home": "Mytilene",
+            "politics": "Liberal",
+            "work": "Lyric poet, Thiasos leader",
+            "intro": [
+                "height",
+                "location",
+                "drinking",
+                "smoking",
+                "weed"
+            ],
+            "other": [
+                "home",
+                "work",
+                "politics"
+            ]
+        },
+        "profileItems": [
+            {
+                "type": "image",
+                "src": "./img/captioned/image1.png",
+                "caption": "“What I look like when I’m missing you.”"
+            },
+            {
+                "type": "image",
+                "src": "./img/captioned/image8.png",
+                "caption": "“How i feel when — “"
+            },
+            {
+                "type": "image",
+                "src": "./img/captioned/image2.png",
+                "caption": "“I write good lyric poetry.”"
+            },
+            {
+                "type": "image",
+                "src": "./img/captioned/image6.png",
+                "caption": "“I’m deciding what flowers to buy you because you are a flower😍”"
+            },
+            {
+                "type": "prompt",
+                "prompt": "If loving this is wrong, I don’t want to be right",
+                "response": "sensuous ladies 😋"
+            },
+            {
+                "type": "prompt",
+                "prompt": "Let’s make sure we’re on the same page about",
+                "response": "what the best goddess is: Venus.\nShe’s pretty much the most powerful goddess because love is really out here doing the most, and she sympathizes with us cuz she’s gone through a lot. I mean she lost Adonis recently. That’s rough"
+            },
+            {
+                "type": "prompt",
+                "prompt": "I know the best spot in town for",
+                "response": "viewing flowers – Arboretum and drinking wine"
+            },
+            {
+                "type": "prompt",
+                "prompt": "My nickname is",
+                "response": "the “tenth muse”"
+            }
+        ]
+    },
+    {
         "name": "John Donne",
         "picture": "./img/profiles/donne.png",
         "biodata": {
@@ -29,58 +97,16 @@
                 "studies"
             ]
         },
-        "prompts": [
+        "profileItems": [
             {
+                "type": "prompt",
                 "prompt": "I'm weirdly attracted to",
                 "response": "Anyone and everyone"
             },
             {
+                "type": "prompt",
                 "prompt": "Go-to karaoke song",
                 "response": "Mambo No, 5 or Titi Me Pregunto"
-            }
-        ]
-    },
-    {
-        "name": "Sappho",
-        "picture": "./img/profiles/sappho.jpg",
-        "biodata": {
-            "height": "5' 8\"",
-            "location": "Lesbos",
-            "drinking": "Yes",
-            "smoking": "Yes",
-            "weed": "Yes",
-            "home": "Mytilene",
-            "politics": "Liberal",
-            "work": "Lyric poet, Thiasos leader",
-            "intro": [
-                "height",
-                "location",
-                "drinking",
-                "smoking",
-                "weed"
-            ],
-            "other": [
-                "home",
-                "work",
-                "politics"
-            ]
-        },
-        "prompts": [
-            {
-                "prompt": "If loving this is wrong, I don’t want to be right",
-                "response": "sensuous ladies 😋"
-            },
-            {
-                "prompt": "Let’s make sure we’re on the same page about",
-                "response": "what the best goddess is: Venus.\nShe’s pretty much the most powerful goddess because love is really out here doing the most, and she sympathizes with us cuz she’s gone through a lot. I mean she lost Adonis recently. That’s rough"
-            },
-            {
-                "prompt": "I know the best spot in town for",
-                "response": "viewing flowers – Arboretum and drinking wine"
-            },
-            {
-                "prompt": "My nickname is",
-                "response": "the “tenth muse”"
             }
         ]
     },
@@ -109,16 +135,29 @@
                 "studies"
             ]
         },
-        "prompts": [
+        "profileItems": [
             {
+                "type": "image",
+                "src": "./img/captioned/image3.png",
+                "caption": "”About to drop a new hit poem”"
+            },
+            {
+                "type": "image",
+                "src": "./img/captioned/image9.png",
+                "caption": "”Another me, courtesy of a modern fan (MarinaCardoso on DeviantArt)”"
+            },
+            {
+                "type": "prompt",
                 "prompt": "I’m looking for…",
                 "response": "A partner to pardon my impotence, endear me every night, and enjoy a cask of wine with. Either be a not too successful actress, or not a woman at all."
             },
             {
+                "type": "prompt",
                 "prompt": "I’m convinced that…",
                 "response": "Life’s not worth living without doing what you want. To do so, money is key. #CarpeDiem #DrinkFreeSpeakFree"
             },
             {
+                "type": "prompt",
                 "prompt": "Don’t hate me if I…",
                 "response": "Offend you. It’s just a little f*ckery, no? #Don’tCancelMe #ForgiveAndMoveOn"
             }
@@ -147,20 +186,34 @@
                 "studies"
             ]
         },
-        "prompts": [
+        "profileItems": [
             {
+                "type": "image",
+                "src": "./img/captioned/image7.png",
+                "caption": "”Face so good, they carved it in marble”"
+            },
+            {
+                "type": "image",
+                "src": "./img/captioned/image5.png",
+                "caption": "”Pov you say something stupid again”"
+            },
+            {
+                "type": "prompt",
                 "prompt": "Two truths and a lie",
                 "response": "I’ve never been in love, I’ve drunken a love potion before, I think sex should be reserved for marriage"
             },
             {
+                "type": "prompt",
                 "prompt": "You should leave a comment if…",
                 "response": "You’re also looking for something casual"
             },
             {
+                "type": "prompt",
                 "prompt": "This year I really want to",
                 "response": "Take life slow. Live peacefully and indulge quietly."
             },
             {
+                "type": "prompt",
                 "prompt": "Favorite quote",
                 "response": "“I was within and without, simultaneously enchanted and repelled by the inexhaustible variety of life.” Gatsby"
             }

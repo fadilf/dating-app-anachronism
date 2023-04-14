@@ -150,6 +150,7 @@ body {
     border-radius: .6em;
     margin: .5em auto;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .profile .profile-pic.card {
@@ -570,4 +571,15 @@ body {
     vertical-align: bottom;
     background-size: cover;
     background-position: center;
+}
+
+.captioned-image-content {
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+}
+
+.captioned-image-text {
+    padding: .7em;
+
 }
